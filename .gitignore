@@ -1,3 +1,15 @@
+# !!!Ignore everything
+*
+
+# !!!But unignore the .gitignore file
+!.gitignore
+
+# !!!Unignore the specific folder
+!/Archives
+
+# !!!Unignore all contents and subdirectories within the specific folder
+!/Archives/**
+
 # Prerequisites
 *.d
 
